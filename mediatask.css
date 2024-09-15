@@ -1,0 +1,102 @@
+#whContainer {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(./WhatsApp\ Image\ 2024-07-10\ at\ 1.27.08\ AM.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    height: 97vh;
+}
+
+#navbar {
+    position: relative;
+}
+
+img {
+    position: absolute;
+    left: 50px;
+}
+
+.navitem {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.home {
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+.navitem:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.home::before {
+    content: url(./home-svgrepo-com.svg);
+}
+
+#heading {
+    font-size: 70px;
+    margin: 10px;
+    font-family: century;
+}
+
+.con {
+    border: 1px solid white;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#contant {
+    text-align: center;
+    margin: 10%;
+
+}
+
+.con:hover {
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width:480px) {
+    #whContainer {
+        height: auto;
+    }
+    img {
+        left: 30%;
+    }
+    .navitem {
+        display: block;
+        text-align: center;
+        position: relative;
+        top: 150px;
+    }
+    .home {
+        margin: 0;
+    }
+    #contant {
+        margin-top: 60%;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .con {
+        margin: 20px;
+        display: block;
+        font-size: 10px;
+
+    }
+
+    #heading {
+        font-size: 40px;
+        text-align: center;
+        margin: 20px;
+    }
+}
